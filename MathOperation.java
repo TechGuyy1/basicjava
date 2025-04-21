@@ -1,6 +1,11 @@
+package basicjava;
+
 public class MathOperation {
     int a;
     int b;
+   public MathOperation(){
+        System.out.println("Hey, Performing Math Operation!!");
+    }
     public void add(int a, int b, int c){
    int sum=a+b+c;
    System.out.println(sum);

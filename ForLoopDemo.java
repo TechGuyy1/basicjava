@@ -7,14 +7,8 @@ public class ForLoopDemo {
         //Systax
         //for(initialize the count;Add condition;increment the count)
         for (int i = 0; i <= anArray.length - 1; i++) {
-//            System.out.print("Element at index :"+i +"is ");
-//            System.out.println(anArray[i]);
-            if (i == 2) {
-                break;
-            } else {
-                System.out.print("Element at index :" + i + "is:");
-                System.out.println(anArray[i]);
-            }
+            System.out.print("Element at index :"+i +" is ");
+            System.out.println(anArray[i]);
 
         }
     }
