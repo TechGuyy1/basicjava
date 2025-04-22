@@ -13,16 +13,22 @@ public  int marks;
         System.out.println("In displayStudentdata--> Student Name is:"+name + " and Marks: " + marks);
     }
     //Copy constructor
-    public StudentInfo(StudentInfo copy){
-        this.name= copy.name;
-        this.marks=copy.marks;
-        System.out.println(" Copying object --> Student Name is:"+name + " and Marks: " + marks);
+
+    public StudentInfo(StudentInfo cpy){
+       this.marks= cpy.marks;
+       this.name=cpy.name;
+
+        System.out.println("I'm in Copy const--> Student Name is:"+name + " and Marks: " + marks);
+
     }
+
     public static void main(String[] args) {
         StudentInfo obj=new StudentInfo("Pavan Kumar",11);
         StudentInfo obj1=new StudentInfo("Rohit Sharma",13);
+        StudentInfo obj4=new StudentInfo("Ram Chavan",15);
         obj.displayStudentdata();
         //Initialize copy constructor
-        StudentInfo obj2=new StudentInfo(obj1);
+StudentInfo obj3=new StudentInfo(obj4);
+//        StudentInfo obj5=new StudentInfo(obj4);
     }
 }
