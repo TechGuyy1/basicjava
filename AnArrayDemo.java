@@ -1,6 +1,6 @@
 package basicjava;
 
-public class AnArrayDemo {
+public class AnArrayDemo   {
     public static void main(String[] args) {
         //Single dim array
         //Declearing an array

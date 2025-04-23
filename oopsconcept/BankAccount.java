@@ -1,7 +1,7 @@
 package basicjava.oopsconcept;
 
 public class BankAccount extends CustInfo {
-    public double balance;
+    public  double balance;
     public void cashDeposit(double cashDeposit){
         balance+=cashDeposit; //balance=balance+cashDeposit;
     }
@@ -23,6 +23,7 @@ public class BankAccount extends CustInfo {
         person1.cashWith(1400);
 //        System.out.println( person1.cashWith(1400));
         person1.displayBalance();
+
 
     }
 

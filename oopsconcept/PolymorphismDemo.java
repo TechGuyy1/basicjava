@@ -17,14 +17,14 @@ public class PolymorphismDemo extends BankAccount{
         balance+=cashDeposit-charges; //balance=balance+cashDeposit;
         System.out.println(balance);
     }
-
     public static void main(String[] args) {
         PolymorphismDemo obj=new PolymorphismDemo();
         obj.add(2,3,4);
         obj.add(2,3);
         obj.cashDeposit(100);//Calling the
         BankAccount obj1= new PolymorphismDemo();//Created a obj of BankAccount to call the method of Bankact
-        obj1.cashDeposit(500);//Reffering bank account method
+        obj1.cashDeposit(500);//reffering bank account method
+        obj1.balance+=12;
     }
 
 
